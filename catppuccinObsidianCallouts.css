@@ -77,7 +77,7 @@
 /* === proof === */
 .callout[data-callout^="proof"] {
     --callout-color: var(--catppuccin-teal-rgb);
-    --callout-icon: lucide-grid-2x2-check;
+    --callout-icon: lucide-book-check;
     background-color: rgba(var(--catppuccin-teal-rgb), 0.2);
 }
 /* === proposition / korrolar === */
