@@ -1,0 +1,96 @@
+:root {
+    /* catppuccin base palette */
+    --catppuccin-bg: #24273a;
+    --catppuccin-pink-rgb: 245, 189, 230;
+    --catppuccin-maroon-rgb: 238, 153, 160;
+    --catppuccin-sapphire-rgb: 125, 196, 228;
+    --catppuccin-mauve-rgb: 198, 160, 246;
+    --catppuccin-green-rgb: 166, 218, 149;
+    --catppuccin-yellow-rgb: 238, 212, 159;
+    --catppuccin-red-rgb: 237, 135, 150; 
+    --catppuccin-lavender-rgb: 183, 189, 248;
+    --catppuccin-blue-rgb: 138, 173, 244;
+    --catppuccin-peach-rgb: 245, 169, 127;
+    --catppuccin-teal-rgb: 139, 213, 202
+}
+/* === Satz/Theorem === */
+.callout[data-callout^="satz"],
+.callout[data-callout^="theorem"] {
+    --callout-color: var(--catppuccin-green-rgb);
+    --callout-icon: lucide-box;
+    background-color: rgba(var(--catppuccin-green-rgb), 0.2);
+}
+/* === Lemma === */
+.callout[data-callout^="lemma"] {
+    --callout-color: var(--catppuccin-peach-rgb);
+    --callout-icon: lucide-blocks;
+    background-color: rgba(var(--catppuccin-peach-rgb), 0.2);
+}
+/* === Definition === */
+.callout[data-callout^="def"],
+.callout[data-callout^="definition"] {
+    --callout-color: var(--catppuccin-sapphire-rgb);
+    --callout-icon: lucide-book-marked;
+    background-color: rgba(var(--catppuccin-sapphire-rgb), 0.2);
+}
+/* === idea === */
+.callout[data-callout^="idea"] {
+    --callout-color: var(--catppuccin-yellow-rgb);
+    --callout-icon: lucide-lightbulb;
+    background-color: rgba(var(--catppuccin-yellow-rgb), 0.2);
+}
+/* === Example === */
+.callout[data-callout^="ex"],
+.callout[data-callout^="example"] {
+    --callout-color: var(--catppuccin-mauve-rgb);
+    --callout-icon: lucide-flask-conical;
+    background-color: rgba(var(--catppuccin-mauve-rgb), 0.2);
+}
+/* === cat (because why not) === */
+.callout[data-callout^="cat"] {
+    --callout-color: var(--catppuccin-mauve-rgb);
+    --callout-icon: lucide-cat;
+    background-color: rgba(var(--catppuccin-lavender-rgb), 0.2);
+}
+
+/* === tasks === */
+.callout[data-callout^="tasks"] {
+    --callout-color: var(--catppuccin-blue-rgb);
+    --callout-icon: lucide-list-todo;
+    background-color: rgba(var(--catppuccin-blue-rgb), 0.2);
+}
+/* === info === */
+.callout[data-callout^="info"] {
+    --callout-color: var(--catppuccin-sapphire-rgb);
+    --callout-icon: lucide-info;
+    background-color: rgba(var(--catppuccin-blue-rgb), 0.2);
+}
+/* === correction === */
+.callout[data-callout^="correction"] {
+    --callout-color: var(--catppuccin-peach-rgb);
+    --callout-icon: lucide-search-check;
+    background-color: rgba(var(--catppuccin-green-rgb), 0.2);
+}
+
+/* === ++ Version 3 ++ === */
+
+/* === proof === */
+.callout[data-callout^="proof"] {
+    --callout-color: var(--catppuccin-teal-rgb);
+    --callout-icon: lucide-grid-2x2-check;
+    background-color: rgba(var(--catppuccin-teal-rgb), 0.2);
+}
+/* === proposition / korrolar === */
+.callout[data-callout^="korrolar"],
+.callout[data-callout^="proposition"] {
+    --callout-color: var(--catppuccin-green-rgb);
+    --callout-icon: lucide-link;
+    background-color: rgba(var(--catppuccin-teal-rgb), 0.2);
+}
+/* === error === */
+.callout[data-callout^="error"],
+.callout[data-callout^="contradiction"] {
+    --callout-color: var(--catppuccin-red-rgb);
+    --callout-icon: lucide-zap;
+    background-color: rgba(var(--catppuccin-red-rgb), 0.2);
+}
