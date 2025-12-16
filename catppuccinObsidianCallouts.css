@@ -11,7 +11,9 @@
     --catppuccin-lavender-rgb: 183, 189, 248;
     --catppuccin-blue-rgb: 138, 173, 244;
     --catppuccin-peach-rgb: 245, 169, 127;
-    --catppuccin-teal-rgb: 139, 213, 202
+    --catppuccin-teal-rgb: 139, 213, 202;
+    --catppuccin-overlay0-rgb: 110, 115, 141
+    
 }
 /* === Satz/Theorem === */
 .callout[data-callout^="satz"],
@@ -115,4 +117,19 @@
     --callout-color: var(--catppuccin-blue-rgb);
     --callout-icon: lucide-scroll-text;
     background-color: rgba(var(--catppuccin-blue-rgb), 0.2);
+}
+
+/* === music === */
+.callout[data-callout^="musik"],
+.callout[data-callout^="music"] {
+    --callout-color: var(--catppuccin-lavender-rgb);
+    --callout-icon: lucide-music;
+    background-color: rgba(var(--catppuccin-lavender-rgb), 0.2);
+}
+
+/* === skull === */
+.callout[data-callout^="skull"] {
+    --callout-color: var(--catppuccin-overlay0-rgb);
+    --callout-icon: lucide-skull;
+    background-color: rgba(var(--catppuccin-overlay0-rgb), 0.2);
 }
