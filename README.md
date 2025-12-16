@@ -13,4 +13,6 @@ Current callouts:
     - tasks
     - info
     - correction
+    - question
+    - remark
     - cat(obv.)

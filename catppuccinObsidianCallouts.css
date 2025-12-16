@@ -41,7 +41,8 @@
 }
 /* === Example === */
 .callout[data-callout^="ex"],
-.callout[data-callout^="example"] {
+.callout[data-callout^="example"],
+.callout[data-callout^="bsp"]  {
     --callout-color: var(--catppuccin-mauve-rgb);
     --callout-icon: lucide-flask-conical;
     background-color: rgba(var(--catppuccin-mauve-rgb), 0.2);
@@ -93,4 +94,25 @@
     --callout-color: var(--catppuccin-red-rgb);
     --callout-icon: lucide-zap;
     background-color: rgba(var(--catppuccin-red-rgb), 0.2);
+}
+
+/* === ++ Version 4 ++ === */
+
+/* === question === */
+.callout[data-callout^="frage"],
+.callout[data-callout^="question"],
+.callout[data-callout^="faq"] {
+    --callout-color: var(--catppuccin-yellow-rgb);
+    --callout-icon: lucide-circle-question-mark;
+    background-color: rgba(var(--catppuccin-yellow-rgb), 0.2);
+}
+
+/* === remark === */
+.callout[data-callout^="bemerkung"],
+.callout[data-callout^="remark"],
+.callout[data-callout^="bem"],
+.callout[data-callout^="sidenote"] {
+    --callout-color: var(--catppuccin-blue-rgb);
+    --callout-icon: lucide-scroll-text;
+    background-color: rgba(var(--catppuccin-blue-rgb), 0.2);
 }
