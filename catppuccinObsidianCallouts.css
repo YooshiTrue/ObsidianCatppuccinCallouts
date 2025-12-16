@@ -117,3 +117,11 @@
     --callout-icon: lucide-skull;
     background-color: rgba(var(--catppuccin-overlay0-rgb), 0.2);
 }
+
+/* === music === */
+.callout[data-callout^="music"],
+.callout[data-callout^="musik"] {
+    --callout-color: var(--catppuccin-lavender-rgb);
+    --callout-icon: lucide-music;
+    background-color: rgba(var(--catppuccin-overlay0-rgb), 0.2);
+}
