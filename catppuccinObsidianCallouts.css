@@ -105,7 +105,7 @@
 .callout[data-callout^="question"],
 .callout[data-callout^="faq"] {
     --callout-color: var(--catppuccin-yellow-rgb);
-    --callout-icon: lucide-circle-question-mark;
+    --callout-icon: lucide-badge-question-mark;
     background-color: rgba(var(--catppuccin-yellow-rgb), 0.2);
 }
 
