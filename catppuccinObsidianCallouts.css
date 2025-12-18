@@ -125,3 +125,14 @@
     --callout-icon: lucide-music;
     background-color: rgba(var(--catppuccin-lavender-rgb), 0.2);
 }
+
+/* === ++ Version 4.5 === */
+
+/* === procedure/algorithm === */
+.callout[data-callout^="algorithm"],
+.callout[data-callout^="procedure"],
+.callout[data-callout^="algo"] {
+    --callout-color: var(--catppuccin-maroon-rgb);
+    --callout-icon: lucide-route;
+    background-color: rgba(var(--catppuccin-red-rgb), 0.2);
+}

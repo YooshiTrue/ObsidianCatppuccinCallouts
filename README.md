@@ -15,6 +15,7 @@
   - correction  
   - remark
   - music
+  - algorihm/procedure
   - skull
   - cat(obv.)  
 ###### Preview:  
