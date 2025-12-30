@@ -12,7 +12,8 @@
     --catppuccin-blue-rgb: 138, 173, 244;
     --catppuccin-peach-rgb: 245, 169, 127;
     --catppuccin-teal-rgb: 139, 213, 202;
-    --catppuccin-overlay0-rgb: 110, 115, 141
+    --catppuccin-overlay0-rgb: 110, 115, 141;
+    --catppuccin-crust-rgb: 24, 25, 38
     
 }
 /* === Satz/Theorem === */
@@ -135,4 +136,22 @@
     --callout-color: var(--catppuccin-maroon-rgb);
     --callout-icon: lucide-route;
     background-color: rgba(var(--catppuccin-red-rgb), 0.2);
+}
+
+/* === ++ Version 5 === */
+
+/* === habit === */
+.callout[data-callout^="habit"] {
+    --callout-color: var(--catppuccin-peach-rgb);
+    --callout-icon: lucide-stone;
+    background-color: rgba(var(--catppuccin-peach-rgb), 0.2);
+}
+
+/* === construction/wip === */
+.callout[data-callout^="unfinished"],
+.callout[data-callout^="construction"],
+.callout[data-callout^="wip"] {
+    --callout-color: var(--catppuccin-crust-rgb);
+    --callout-icon: lucide-construction;
+    background-color: rgba(var(--catppuccin-yellow-rgb), 0.2);
 }
