@@ -143,7 +143,7 @@
 /* === habit === */
 .callout[data-callout^="habit"] {
     --callout-color: var(--catppuccin-peach-rgb);
-    --callout-icon: lucide-stone;
+    --callout-icon: lucide-brain-cog;
     background-color: rgba(var(--catppuccin-peach-rgb), 0.2);
 }
 
@@ -151,7 +151,16 @@
 .callout[data-callout^="unfinished"],
 .callout[data-callout^="construction"],
 .callout[data-callout^="wip"] {
-    --callout-color: var(--catppuccin-crust-rgb);
+    --callout-color: var(--catppuccin-yellow-rgb);
     --callout-icon: lucide-construction;
-    background-color: rgba(var(--catppuccin-yellow-rgb), 0.2);
+    background-color: rgba(var(--catppuccin-crust-rgb), 0.2);
+}
+
+/* === stat === */
+.callout[data-callout^="stat"],
+.callout[data-callout^="stats"],
+.callout[data-callout^="statistic"] {
+    --callout-color: var(--catppuccin-blue-rgb);
+    --callout-icon: lucide-circle-gauge;
+    background-color: rgba(var(--catppuccin-red-rgb), 0.2);
 }
