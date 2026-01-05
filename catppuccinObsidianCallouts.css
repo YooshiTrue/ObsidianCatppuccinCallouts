@@ -192,7 +192,7 @@
 .callout[data-callout^="needle"] {
     --callout-color: var(--catppuccin-text-rgb);
     --callout-icon: lucide-pin;
-    background-color: rgba(var(--catppuccin-text-rgb), 0.2);
+    background-color: rgba(var(--catppuccin-yellow-rgb), 0.2);
 }
 
 /* === map === */
