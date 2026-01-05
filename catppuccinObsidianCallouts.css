@@ -13,6 +13,7 @@
     --catppuccin-peach-rgb: 245, 169, 127;
     --catppuccin-teal-rgb: 139, 213, 202;
     --catppuccin-overlay0-rgb: 110, 115, 141;
+    --catppuccin-text-rgb: 202, 211, 245;
     --catppuccin-crust-rgb: 24, 25, 38
     
 }
@@ -163,4 +164,42 @@
     --callout-color: var(--catppuccin-blue-rgb);
     --callout-icon: lucide-circle-gauge;
     background-color: rgba(var(--catppuccin-red-rgb), 0.2);
+}
+
+/* === ++ Version 5 === */
+
+/* === image === */
+.callout[data-callout^="gallery"],
+.callout[data-callout^="img"],
+.callout[data-callout^="image"],
+.callout[data-callout^="bild"] {
+    --callout-color: var(--catppuccin-sapphire-rgb);
+    --callout-icon: lucide-images;
+    background-color: rgba(var(--catppuccin-green-rgb), 0.1);
+}
+
+/* === building === */
+.callout[data-callout^="building"],
+.callout[data-callout^="landmark"],
+.callout[data-callout^="house"] {
+    --callout-color: var(--catppuccin-text-rgb);
+    --callout-icon: lucide-landmark;
+    background-color: rgba(var(--catppuccin-overlay-rgb), 0.2);
+}
+
+/* === pin === */
+.callout[data-callout^="pin"],
+.callout[data-callout^="needle"] {
+    --callout-color: var(--catppuccin-text-rgb);
+    --callout-icon: lucide-pin;
+    background-color: rgba(var(--catppuccin-text-rgb), 0.2);
+}
+
+/* === map === */
+.callout[data-callout^="map"],
+.callout[data-callout^="karte"],
+.callout[data-callout^="location"] {
+    --callout-color: var(--catppuccin-red-rgb);
+    --callout-icon: lucide-map-pinned;
+    background-color: rgba(var(--catppuccin-teal-rgb), 0.2);
 }
