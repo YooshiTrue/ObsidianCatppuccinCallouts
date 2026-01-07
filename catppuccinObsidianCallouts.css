@@ -203,3 +203,39 @@
     --callout-icon: lucide-map-pinned;
     background-color: rgba(var(--catppuccin-teal-rgb), 0.2);
 }
+
+/* === ++ Version 5.5 === */
+
+/* === strength === */
+.callout[data-callout^="pro"],
+.callout[data-callout^="strength"],
+.callout[data-callout^="advantage"] {
+    --callout-color: var(--catppuccin-teal-rgb);
+    --callout-icon: lucide-chevrons-up;
+    background-color: rgba(var(--catppuccin-green-rgb), 0.2);
+}
+
+/* === weakness === */
+.callout[data-callout^="contra"],
+.callout[data-callout^="weakness"],
+.callout[data-callout^="disadvantage"] {
+    --callout-color: var(--catppuccin-maroon-rgb);
+    --callout-icon: lucide-chevrons-down;
+    background-color: rgba(var(--catppuccin-red-rgb), 0.2);
+}
+
+/* === shield === */
+.callout[data-callout^="shield"],
+.callout[data-callout^="protect"] {
+    --callout-color: var(--catppuccin-sapphire-rgb);
+    --callout-icon: lucide-shield;
+    background-color: rgba(var(--catppuccin-blue-rgb), 0.2);
+}
+
+/* === balance === */
+.callout[data-callout^="balance"],
+.callout[data-callout^="scale"] {
+    --callout-color: var(--catppuccin-text-rgb);
+    --callout-icon: lucide-scale;
+    background-color: rgba(var(--catppuccin-overlay0-rgb), 0.2);
+}
