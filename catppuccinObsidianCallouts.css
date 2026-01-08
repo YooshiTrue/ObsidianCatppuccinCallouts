@@ -80,7 +80,8 @@
 /* === ++ Version 3 ++ === */
 
 /* === proof === */
-.callout[data-callout^="proof"] {
+.callout[data-callout^="proof"],
+.callout[data-callout^="beweis"] {
     --callout-color: var(--catppuccin-teal-rgb);
     --callout-icon: lucide-book-check;
     background-color: rgba(var(--catppuccin-teal-rgb), 0.2);
@@ -207,7 +208,7 @@
 /* === ++ Version 5.5 === */
 
 /* === strength === */
-.callout[data-callout^="pro"],
+.callout[data-callout^="propoint"],
 .callout[data-callout^="strength"],
 .callout[data-callout^="advantage"] {
     --callout-color: var(--catppuccin-teal-rgb);
@@ -216,7 +217,7 @@
 }
 
 /* === weakness === */
-.callout[data-callout^="contra"],
+.callout[data-callout^="contrapoint"],
 .callout[data-callout^="weakness"],
 .callout[data-callout^="disadvantage"] {
     --callout-color: var(--catppuccin-maroon-rgb);
