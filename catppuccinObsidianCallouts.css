@@ -240,3 +240,59 @@
     --callout-icon: lucide-scale;
     background-color: rgba(var(--catppuccin-overlay0-rgb), 0.2);
 }
+
+
+/* === ++ Version 6 ++ === */
+
+/* === quote / cite, enhanced version, modified from https://prakashjoshipax.com/obsidian-css-snippets/ === */
+.callout[data-callout="quote"] {    
+    display: flex;    
+    flex-direction: column-reverse;  
+    /* --callout-padding: 8px 1rem;  */
+    --callout-color: var(--catppuccin-overlay0-rgb);
+    --callout-icon: lucide-quote;
+    background-color: rgba(var(--catppuccin-overlay0-rgb), 0.2);
+}
+/*.callout[data-callout="quote"] > .callout-title {    
+     margin-block: .5em;  text-indent: 0.8em;  } */
+
+    .callout[data-callout="quote"] > .callout-title > .callout-icon,  
+    .callout[data-callout="cite"] > .callout-title > .callout-icon {    
+        transform: scale(-1, 1);  }  
+        .callout[data-callout='quote'] 
+        .callout-content p 
+        /* ,.callout[data-callout='cite'] .callout-content p  */
+{   margin-top: 0;}
+
+
+/* === tip (rework) === */
+.callout[data-callout="tip"] {
+    --callout-color: var(--catppuccin-yellow-rgb);
+    --callout-icon: lucide-flame;
+    background-color: rgba(var(--catppuccin-teal-rgb), 0.2);
+}
+
+/* === warning (rework) === */
+.callout[data-callout^="warning"],
+.callout[data-callout^="attention"],
+.callout[data-callout^="beware"] {
+    --callout-color: var(--catppuccin-peach-rgb);
+    --callout-icon: lucide-triangle-alert;
+    background-color: rgba(var(--catppuccin-peach-rgb), 0.2);
+}
+
+/* === error (rework) === */
+.callout[data-callout^="error"],
+.callout[data-callout^="fehler"] {
+    --callout-color: var(--catppuccin-red-rgb);
+    --callout-icon: lucide-zap;
+    background-color: rgba(var(--catppuccin-red-rgb), 0.2);
+}
+
+/* === magic === */
+.callout[data-callout^="magic"],
+.callout[data-callout^="sparkles"] {
+    --callout-color: var(--catppuccin-sapphire-rgb);
+    --callout-icon: lucide-sparkles;
+    background-color: rgba(var(--catppuccin-lavender-rgb), 0.2);
+}

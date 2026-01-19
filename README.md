@@ -28,6 +28,11 @@
   - disadvantage
   - shield
   - scale
+  - magic
+  - error (rework)
+  - warning (rework)
+  - quote (rework+)
+  - tip (rework)
   - cat(obv.)  
 ###### Preview:  
 <img width="1920" height="1080" alt="MacchiatoFlavoredCatppuccinCallouts" src="https://github.com/user-attachments/assets/81c085b9-f2be-4105-a69e-3f9dfad12ae7" />  
