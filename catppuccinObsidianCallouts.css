@@ -86,8 +86,8 @@
     --callout-icon: lucide-book-check;
     background-color: rgba(var(--catppuccin-teal-rgb), 0.2);
 }
-/* === proposition / korrolar === */
-.callout[data-callout^="korrolar"],
+/* === proposition / korollar === */
+.callout[data-callout^="korollar"],
 .callout[data-callout^="proposition"] {
     --callout-color: var(--catppuccin-green-rgb);
     --callout-icon: lucide-link;
