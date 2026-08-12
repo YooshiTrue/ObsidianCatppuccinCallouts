@@ -23,12 +23,14 @@
     --callout-color: var(--catppuccin-green);
     --callout-icon: lucide-box;
     background-color: color-mix(in srgb, var(--catppuccin-green) 20%, transparent);
+    --callout-border-width: 0;
 }
 /* === Lemma === */
 .callout[data-callout^="lemma"] {
     --callout-color: var(--catppuccin-peach);
     --callout-icon: lucide-blocks;
     background-color: color-mix(in srgb, var(--catppuccin-peach) 20%, transparent);
+    --callout-border-width: 0;
 }
 /* === Definition === */
 .callout[data-callout^="def"],
@@ -36,12 +38,14 @@
     --callout-color: var(--catppuccin-sapphire);
     --callout-icon: lucide-book-marked;
     background-color: color-mix(in srgb, var(--catppuccin-sapphire) 20%, transparent);
+    --callout-border-width: 0;
 }
 /* === idea === */
 .callout[data-callout^="idea"] {
     --callout-color: var(--catppuccin-yellow);
     --callout-icon: lucide-lightbulb;
     background-color: color-mix(in srgb, var(--catppuccin-yellow) 20%, transparent);
+    --callout-border-width: 0;
 }
 /* === Example === */
 .callout[data-callout^="ex"],
@@ -50,12 +54,14 @@
     --callout-color: var(--catppuccin-mauve);
     --callout-icon: lucide-flask-conical;
     background-color: color-mix(in srgb, var(--catppuccin-mauve) 20%, transparent);
+    --callout-border-width: 0;
 }
 /* === cat (because why not) === */
 .callout[data-callout^="cat"] {
     --callout-color: var(--catppuccin-mauve);
     --callout-icon: lucide-cat;
     background-color: color-mix(in srgb, var(--catppuccin-lavender) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === tasks === */
@@ -63,18 +69,21 @@
     --callout-color: var(--catppuccin-blue);
     --callout-icon: lucide-list-todo;
     background-color: color-mix(in srgb, var(--catppuccin-blue) 20%, transparent);
+    --callout-border-width: 0;
 }
 /* === info === */
 .callout[data-callout^="info"] {
     --callout-color: var(--catppuccin-sapphire);
     --callout-icon: lucide-info;
     background-color: color-mix(in srgb, var(--catppuccin-blue) 20%, transparent);
+    --callout-border-width: 0;
 }
 /* === correction === */
 .callout[data-callout^="correction"] {
     --callout-color: var(--catppuccin-peach);
     --callout-icon: lucide-search-check;
     background-color: color-mix(in srgb, var(--catppuccin-green) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === ++ Version 3 ++ === */
@@ -85,6 +94,7 @@
     --callout-color: var(--catppuccin-teal);
     --callout-icon: lucide-book-check;
     background-color: color-mix(in srgb, var(--catppuccin-teal) 20%, transparent);
+    --callout-border-width: 0;
 }
 /* === proposition / korollar === */
 .callout[data-callout^="korollar"],
@@ -92,6 +102,7 @@
     --callout-color: var(--catppuccin-green);
     --callout-icon: lucide-link;
     background-color: color-mix(in srgb, var(--catppuccin-teal) 20%, transparent);
+    --callout-border-width: 0;
 }
 /* === error === */
 .callout[data-callout^="error"],
@@ -99,6 +110,7 @@
     --callout-color: var(--catppuccin-red);
     --callout-icon: lucide-zap;
     background-color: color-mix(in srgb, var(--catppuccin-red) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === ++ Version 4 ++ === */
@@ -111,6 +123,7 @@
     --callout-color: var(--catppuccin-blue);
     --callout-icon: lucide-scroll-text;
     background-color: color-mix(in srgb, var(--catppuccin-blue) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 
@@ -119,6 +132,7 @@
     --callout-color: var(--catppuccin-overlay0);
     --callout-icon: lucide-skull;
     background-color: color-mix(in srgb, var(--catppuccin-overlay0) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === music === */
@@ -127,6 +141,7 @@
     --callout-color: var(--catppuccin-lavender);
     --callout-icon: lucide-music;
     background-color: color-mix(in srgb, var(--catppuccin-lavender) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === ++ Version 4.5 === */
@@ -138,6 +153,7 @@
     --callout-color: var(--catppuccin-maroon);
     --callout-icon: lucide-route;
     background-color: color-mix(in srgb, var(--catppuccin-red) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === ++ Version 5 === */
@@ -147,6 +163,7 @@
     --callout-color: var(--catppuccin-peach);
     --callout-icon: lucide-brain-cog;
     background-color: color-mix(in srgb, var(--catppuccin-peach) 10%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === construction/wip === */
@@ -156,6 +173,7 @@
     --callout-color: var(--catppuccin-yellow);
     --callout-icon: lucide-construction;
     background-color: color-mix(in srgb, var(--catppuccin-crust) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === stat === */
@@ -165,6 +183,7 @@
     --callout-color: var(--catppuccin-blue);
     --callout-icon: lucide-circle-gauge;
     background-color: color-mix(in srgb, var(--catppuccin-red) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === ++ Version 5 === */
@@ -177,6 +196,7 @@
     --callout-color: var(--catppuccin-sapphire);
     --callout-icon: lucide-images;
     background-color: color-mix(in srgb, var(--catppuccin-green) 10%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === building === */
@@ -186,6 +206,7 @@
     --callout-color: var(--catppuccin-text);
     --callout-icon: lucide-landmark;
     background-color: color-mix(in srgb, var(--catppuccin-overlay0) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === pin === */
@@ -194,6 +215,7 @@
     --callout-color: var(--catppuccin-yellow);
     --callout-icon: lucide-pin;
     background-color: color-mix(in srgb, var(--catppuccin-yellow) 25%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === map === */
@@ -203,6 +225,7 @@
     --callout-color: var(--catppuccin-red);
     --callout-icon: lucide-map-pinned;
     background-color: color-mix(in srgb, var(--catppuccin-teal) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === ++ Version 5.5 === */
@@ -214,6 +237,7 @@
     --callout-color: var(--catppuccin-teal);
     --callout-icon: lucide-chevrons-up;
     background-color: color-mix(in srgb, var(--catppuccin-green) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === weakness === */
@@ -223,6 +247,7 @@
     --callout-color: var(--catppuccin-maroon);
     --callout-icon: lucide-chevrons-down;
     background-color: color-mix(in srgb, var(--catppuccin-red) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === shield === */
@@ -231,6 +256,7 @@
     --callout-color: var(--catppuccin-sapphire);
     --callout-icon: lucide-shield;
     background-color: color-mix(in srgb, var(--catppuccin-blue) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === balance === */
@@ -239,6 +265,7 @@
     --callout-color: var(--catppuccin-text);
     --callout-icon: lucide-scale;
     background-color: color-mix(in srgb, var(--catppuccin-overlay0) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 
@@ -252,12 +279,14 @@
     --callout-color: var(--catppuccin-overlay0);
     --callout-icon: lucide-quote;
     background-color: color-mix(in srgb, var(--catppuccin-overlay0) 20%, transparent);
+    --callout-border-width: 0;
 }
 /*.callout[data-callout="quote"] > .callout-title {    
      margin-block: .5em;  text-indent: 0.8em;  } */
 
     .callout[data-callout="quote"] > .callout-title > .callout-icon,  
     .callout[data-callout="cite"] > .callout-title > .callout-icon {    
+    --callout-border-width: 0;
         transform: scale(-1, 1);  }  
         .callout[data-callout='quote'] 
         .callout-content p 
@@ -270,6 +299,7 @@
     --callout-color: var(--catppuccin-yellow);
     --callout-icon: lucide-flame;
     background-color: color-mix(in srgb, var(--catppuccin-teal) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === warning (rework) === */
@@ -279,6 +309,7 @@
     --callout-color: var(--catppuccin-peach);
     --callout-icon: lucide-triangle-alert;
     background-color: color-mix(in srgb, var(--catppuccin-peach) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === error (rework) === */
@@ -287,6 +318,7 @@
     --callout-color: var(--catppuccin-red);
     --callout-icon: lucide-zap;
     background-color: color-mix(in srgb, var(--catppuccin-red) 20%, transparent);
+    --callout-border-width: 0;
 }
 
 /* === magic === */
@@ -295,4 +327,5 @@
     --callout-color: var(--catppuccin-sapphire);
     --callout-icon: lucide-sparkles;
     background-color: color-mix(in srgb, var(--catppuccin-lavender) 20%, transparent);
+    --callout-border-width: 0;
 }
